@@ -17,9 +17,9 @@ The solution described in this chapter requires four components:
   - **libvirt** provides an abstraction language to define and launch
     VMs, but is normally used just to launch single VMs. It uses XML to
     represent and define the VM.
-  - **KVM** w orks exclusively with QEMU and p erforms hardware
+  - **KVM** works exclusively with QEMU and p erforms hardware
     acceleration for x86 VMs with Intel and AMD CPUs. KVM and QEMU are
-    hypervisors that emulate the VMs; t he pair is often called KVM/QEMU
+    hypervisors that emulate the VMs; the pair is often called KVM/QEMU
     or just KVM.
   - **QEMU** is a machine emulator that can allow the host machine to
     emulate the CPU architecture of the guest machine. Because QEMU does
